@@ -1,0 +1,81 @@
+Tablas:
+	son como las estructuras en HTML
+		tenemos Columnas y filas, para trabajar con ellas usamos la etiqueta "table"
+	<table></table>
+	las tablas agrupan datos del mismo tipo por columnas
+
+<table>
+	<tr>
+
+		<td></td> = definir campos por filas
+		<td></td>
+		<td></td>
+	</tr> = define las filas 
+	
+</table>
+
+
+datos separados por fila
+table le podemos dar propiedades:
+
+<table border="1px">
+	pero lo normal es personalizar en Css
+
+
+
+
+---------iconos + imgenes + etiqueta "center"
+img src="img.png" alt="img.png"
+	con el "alt" en caso de que no aparezca la imagen te pondra un nombre cualquiera y el icono
+
+img src="img.png" alt="img.png tittle="programador""
+	con la "tittle" pasas el cursor sobre la imagen y te da el nombre, pero la vital para el ceo es "alt".
+
+
+..Con la etiqueta center centramos el contenido al centro de la pantalla
+	para centrar la tabla debe estar dentro del td, pero no se recomienda usar, mejor usar el "css"
+
+
+
+
+
+
+
+---------------
+para viajar rapidamente al fondo de la pagina o a un lugar especifico usamos etiqueta "a" y con id indicamos el sitio:
+<a href="#codigo"></a>
+<h2 id="codigo">El codigo es: asfjksahkfha</h2>
+
+
+
+-----------para poner icono en en la la ventana de la pagina usamos etiqueta link
+<link rel="icon" href="">
+	la img debe estar en formato icon "bregar eso de flaticon o crear uno sin mas :v"
+
+
+
+
+--------ERRORES COMUNES EN HTML-------
+Nunca dar estilo en el propio html, solo estrutura la web; mejor hacerlo con "css"...
+	no usar ni "br"m ni "center". Solo solo estructurar.
+
+No usar etiquetas obsoletas, google las castiga.
+<acronym>, <applet>, <basefont>, <big>, <center>, <dir>, <font>, <frame>, <frameset>, <isindex>, <keygen>, <listing>, <marquee>, 
+<menuitem>, <multicol>, <nextid>, <noembed>, <noframes>, <plaintext>, <rb>, <rtc ..
+<hgroup>, <dir>, <frame>, <font>, etc...
+<link> = tambien se pone en el css wtf
+
+la sintaxis del codigo es muy importante
+
+archivos de css y js
+	ponemos sus respectivas etiquetas la ruta y asi tenomos todo modularizado
+		para js = <script src="ruta"></script>
+		para css = <link rel="stylesheet" href="ruta">
+
+
+
+---ahora estoy a nivel avanzado de html con estas clases------
+
+
+
+

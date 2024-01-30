@@ -1,0 +1,126 @@
+Repaso de todo lo aprendido en la introduccion...
+
+
+-----------
+Ahora la etiqueta "<br>" para el salto de linea.
+	tambien enlace para otra ventana, no sobre la misma ventana de mi web:
+
+
+		haz <a href="https://www.google.com target="_BLACK">click aqui</a> para ir a google
+
+
+
+
+
+
+*--------------------Ahora a ver como poner listas,formulario, videos, imagenes, etc....-----------------------------------
+
+**-----------------Listas:
+	<ul>   === ul es como el papel 
+		<li></li> ==== li es como lo que se escribe con un lapiz
+	</ul>
+
+	<ol> = lista ordenada con numeros
+	<li></li>
+	</ol>
+
+
+
+***---------------Imagenes, videos, audios, etc...
+
+"IMG"----para agregar imagen usamos la etiqueta "<img src="">"
+		src = es como href
+		si la imagen esta dentro de una carpeta debemos: "caperta/imagen.png"
+
+width = ancho
+height= altura
+		podemos usar atributos para cambiar el tamaño
+			src = "imagen.png" width="400px" height="400px"
+	No es recomendable asignar tamaño aqui, porque lo podemos hacer en "css", en css tenemos los estilos en linea.
+
+
+
+"VIDEO" ------ para agregar video usamos la etiqueda <video></video>"esta a diferencia de la img se cierra", tambien usa "src="vid.mp4""
+	debemos de asignarle el atributo "controls", que muestra los controles del vid para que reprodusca el vid, ejemplo: 
+		<video src="zill.mp4" controls=""></video>
+
+"AUDIO"-----Para agregar audio se usa la etiqueta audio, basicamente lo mismo que lo de video.
+		<audio src="zill.mp4" controls=""></audio>
+
+
+
+
+
+***--------------------divs------
+un div es una etiqueta que a nivel estrutural ayuda agrupar y separar contenido 
+	div = divisor 
+
+	ejemplo
+	<h1>Mi web</h1>
+	<div>
+		<h4>nombre del producto<h4>
+		<p>
+			preico <b>$99<b>
+		</p>
+	</div>
+
+		
+
+
+***--------------------Formularios
+para crear formularios utilisamos la etiqueta "form"
+<form>
+	<input type="" name=""> = lo que nos da el usuario "entrada de datos", entra dato se procesa y se regresa.
+</form>
+
+
+el "type" para tipo de dato, texto, numerico, etc...
+el "name" para identificar en el servidor o backend... para interactuar con el backend.
+
+
+--inputs:
+text
+password
+number
+email
+color
+range = elegir numero entre = range min="10" max="1000"
+date = fecha
+time = hora
+button = boton = "button" value=""
+submit = enviar = tambien se le puede agregar un value=""
+
+----para los inputs puedo agregar un "required" esto obliga a completar los campos para continuar...
+	ej:
+<input type="text" required="" >
+<input type="email" required="" >
+<input type="password" required="" >
+	las validaciones como "required", se hacen en el servidor para evitar que un listillo edite el html y salte la validacion 
+
+
+
+
+
+---Si trabajo en lenguje de backend en "form" uso metodo; ej:
+<form method="post">
+	<input type="" name=""> = lo que nos da el usuario "entrada de datos", entra dato se procesa y se regresa.
+</form>
+
+
+
+tambien tenemos el "textarea"
+<textarea></textarea>
+si no se le asigna alguna el toma cualquier resolucion 
+	se puede agregar un "readonly" para que solo pueda leerse, agregandole un texto dentro.
+<textarea readonly=""></textarea> 
+	se le puede dar tamaño, poosiciones etc...
+
+
+
+---------Que propiedad utilizo para agregar valor dentro de mis inputs....
+Esta es "value"
+text value"texto"
+password value="contraseña"
+number value="numero"
+email value="example@gmail.com"
+	para los nombres indicadores en los inputs utilizo "placeholder"

@@ -1,0 +1,106 @@
+que es html = hypertext markup language
+
+Con html basicamente es como poner cajas y colocarlas en lugares de la pagina, con css es como pintar esas cajas.... (cajitas de cajitas dentro de otras cajitas)
+	Con HTML simplemente es poner los objetos, no para dar estilos sino estructurar la pagina.
+		HTML = es un lenguaje de marcado de ipertexto. "pero no es un lenguaje de programacion"
+
+
+	Para tener 2 click para editar: posicionar la barra del click presionar control y dar click en el otro extremo.
+
+
+
+	En el index tengo las etiquetas H1,H2... con su contenido y aparece una bajo la otra; a diferencia de "b, i, strike, small", que estan una al lado de la otra... ("son etiquetas que se completan a todo el ancho de la caja")
+	Esto es por las etiquetas como "h1, h2..., p, etc", completan la linea; es decir: es como que la etiqueta completa todo el espacio en blanco hasta la siguiente linea.
+		esto es porque al cerrar la etiqueta es lo que tienen por default...
+		En cambio "b, i, etc, se adactan al contenido" y no completan toda la linea, se estiran segun el contenido que le pongas.
+			Si quiero que aparezca una al lado de la otra debo: hacer un "div" del tamaño que necesito y asi puedo disponer de 2 "h1" o mas en la misma linea.
+
+
+
+gEstrutura inicial de HTML:
+	<etiqueta atributo ="valor"></etiqueta>
+ejemplo: boton, input, output, (br), h1 /h1,  etc...
+	las etiquetas que abren y cierran suelen tener algo dentro, Ej:
+		<h1>
+			titulo 
+		</h1>
+
++ en el index....
+
+
+
+En sublime text para zoom es: CTRL + + o CTRL + -
+
+-----------------------------------------------
+
+TIPOS DE ETIQUETAS HTML:
+	Etiqueta de texto....
+	
+	Para titulos; H1, H2, H3, hasta el H6 
+		(poner mas de un "H1" el navegador no lo toma bien y el "ceo" "optimizacion en la Busqueda de navegadores" o posicionamiento web ayuda a que salte 1ra que todas las demas)
+			El H2 y el H3 se pueden poner varias veces, pero sin abusar... H4, H5, H6 sin limites 
+				pero para uso mas correctos el "H4", para articuloso, secciones, etc... "H2" subtitulos, etc...
+
+<p>	Lorem y luego tab y sale un texto random	</p> = esta para parrafo = con esta etiqueta: "<p></p>" trabajar los parrafos.
+
+<b>	negritas	</b>	= Cambiar texto a negritas.
+<i>	italicas	</i>	= cambiar forma de letras a italicas.	
+<strike> TACHADAS </strike> = para poner tachadas.
+<small> Chiquita </small> = letras pequeñas
+
+
+
+<a href=""></a>
+
+
+
+<div></div> = divisor "es como una caja que divide"
+
+
+<br> = salto de linea.
+
+
+--------------------------------------------PARTE II---------------------------------------------------
+
+ENLANCES/RUTAS
+<a href="">	esta es para enlace de redirrecion a otra pagina "has click aqui"	</a> = redireccions esta tiene un atributo, redirecciona a rutas locales, no a otra pagina web
+													si quiero que me redirija a una web pongo dentro del href 
+													para un archivo local ejemplo = <a href="pagina2.html">Click aqui</a>
+													para acceder a una carpeta debo = <a href="carpeta/pagina2.html">Click aqui</a>
+													para salir de la carpeta debo = <a href="../index.html">volver</a>
+													si es mas de una carpeta = <a href="../../index.html">volver</a>
+
+/////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
